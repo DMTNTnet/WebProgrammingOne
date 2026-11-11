@@ -75,8 +75,50 @@ Submit           Create a submit button (an input tag with a <b>type</b> attribu
                  
        </pre>
        <div class="answer">
-          <form id="frmSurvey" action="https://www.webcoder.club/form-handler" method="POST">
-            Replace this sentence with your HTML code for the form.         
+          <form id="frmSurvey" action="https://www.webcoder.club/form-handler" method="POST">  
+                <label for="firstName">First Name:</label>
+                <input type="text" id="firstName" name="firstName">
+                <br>
+                <br>
+                <label for="color">Favorite Color:</label>
+                <select id="color" name="color">
+                    <option value="red">Red</option>
+                    <option value="yellow">Yellow</option>
+                    <option value="blue">Blue</option>
+                    <option value="other">Other</option>
+                </select>
+                <br>
+                <br>
+                <label>Favorite Meal:</label>
+                <br>
+                <input type="radio" id="breakfast" name="meal" value="breakfast">
+                <label for="breakfast">Breakfast</label>
+                <br>
+                <input type="radio" id="lunch" name="meal" value="lunch">
+                <label for="lunch">Lunch</label>
+                <br>
+                <input type="radio" id="dinner" name="meal" value="dinner">
+                <label for="dinner">Dinner</label>
+                <br>
+                <br>
+                <label>Places Visited:</label>
+                <br>
+                <input type="checkbox" id="europe" name="visited" value="Europe">
+                <label for="europe">Europe</label>
+                <br>
+                <input type="checkbox" id="africa" name="visited" value="Africa">
+                <label for="africa">Africa</label>
+                <br>
+                <input type="checkbox" id="asia" name="visited" value="Asia">
+                <label for="asia">Asia</label>
+                <br>
+                <br>
+                <label for="quote">Favorite Quote:</label>
+                <br>
+                <textarea id="quote" name="quote"></textarea>
+                <br>
+                <br>
+                <input type="submit" value="Submit">      
           </form>
        </div>
        <footer>
